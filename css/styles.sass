@@ -1,0 +1,80 @@
+---
+---
+
+$background-color: #FFFFFF
+$primary-color: #222222
+$rose-gold-color: #B76E79
+
+@font-face
+	font-family: "Sneak-Regular"
+	src: url('{{ site.baseurl }}/fonts/WorkSans-Thin.woff')
+
+@font-face
+	font-family: "PinyonScript-Regular"
+	src: url('{{ site.baseurl }}/fonts/PinyonScript-Regular.woff')
+
+$default-font-family: "Sneak-Regular", sans-serif
+
+$fancy-font-family: "PinyonScript-Regular", sans-serif
+
+body
+	background-color: $background-color
+	color: $primary-color
+	font-family: $default-font-family
+	font-size: 16px
+	overflow-x: hidden
+	div
+		line-height: 160%
+	a
+		color: $primary-color	
+		padding-bottom: 1px
+		border-bottom: 1px solid transparent
+		&:hover
+			color: $primary-color	
+			border-bottom: 1px solid $primary-color
+			text-decoration: none
+
+.nav-container
+	display: flex
+	justify-content: center
+	margin-top: 50px
+	font-size: 22px
+	margin-bottom: 50px
+	.nav-item
+		padding: 27px 10px
+
+.name-and-wrapper
+	display: flex
+	justify-content: flex-end
+	align-items: end
+
+.home-name
+	font-size: 88px
+
+	&.sam
+		margin-right: 20px
+	&.matt
+		position: relative
+		text-align: right
+		top: -50px
+
+.home-and
+	font-family: $fancy-font-family
+	color: $rose-gold-color
+	font-size: 88px
+	position: relative
+	top: 12px
+
+.section-header
+	text-align: center
+	font-size: 48px
+	margin-bottom: 22px
+
+.save-date
+	text-align: center
+	font-size: 28px
+
+.more-details
+	text-align: center
+	font-size: 28px
+	margin-top: 45px
