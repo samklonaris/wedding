@@ -92,7 +92,7 @@ body
 	letter-spacing: 3px
 	@media (max-width: 690px)
 		font-size: 44px
-		top: 2px
+		top: 3px
 
 .squiggle
 	position: relative
@@ -173,6 +173,7 @@ a.button
 		text-align: center
 		@media (max-width: 1000px)
 			grid-template-columns: 1fr
+		@media (max-width: 690px)
 			font-size: $font-1-mobile
 
 	.location
@@ -186,3 +187,7 @@ a.button
 
 footer
 	height: 150px
+
+.hidden-xs
+	@media (max-width: 690px)
+		display: none
