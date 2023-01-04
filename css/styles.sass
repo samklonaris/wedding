@@ -138,14 +138,16 @@ body
 
 a.button, button.btn.btn-primary
 	padding: 11px 32px 10px
-	background-color: $rose-gold-color
-	color: #ffffff
+	background-color: none
+	color: $rose-gold-color
 	border-radius: 25px
-	border: 1px solid $rose-gold-color
+	border: 2px solid $rose-gold-color
 
 a.button
-	&:hover
-		color: #ffffff
+	&:hover, &:focus
+		color: $rose-gold-color
+		border: 2px solid $rose-gold-color
+		text-decoration: none
 
 .pane
 	margin-top: 50px
