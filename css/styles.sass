@@ -53,6 +53,20 @@ body
 	font-size: 24px
 	padding-top: 27px
 
+button.navbar-toggler
+	position: absolute
+	background-image: url('{{ site.baseurl }}/img/mobile-dropdown.svg')
+	height: 32px
+	width: 26px
+	-webkit-appearance: none
+	border: none
+	background-color: $background-color
+	background-repeat: no-repeat
+	right: 30px
+	top: -36px
+	@media (min-width: 768px)
+		display: none
+
 .nav-container
 	display: flex
 	justify-content: center
@@ -60,6 +74,20 @@ body
 	margin-bottom: 50px
 	.nav-item
 		padding: 27px 10px
+		@media (max-width: 768px)
+			padding: 14px 10px
+			text-align: center
+	ul
+		-webkit-padding-start: 0
+	li
+		list-style: none
+		padding: 27px 10px
+		a
+			padding: 0px
+			padding-bottom: 1px
+		a:hover
+			text-decoration: none
+
 
 .name-and-wrapper
 	display: flex

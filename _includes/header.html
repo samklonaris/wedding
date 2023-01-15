@@ -6,10 +6,26 @@
 	  	<span>M</span>
 	  </div>
   </a>
-  <div class="nav-container">
-  	<div class="nav-item hidden-xs"><a href="{{ site.baseurl }}/">Home</a></div>
-  	<div class="nav-item"><a href="{{ site.baseurl }}/coming-soon">Schedule</a></div>
-  	<div class="nav-item"><a href="{{ site.baseurl }}/travel">Travel</a></div>
-  	<div class="nav-item"><a href="{{ site.baseurl }}/activities">Things to do</a></div>
-  </div>
+  <nav class="nav-container navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/coming-soon">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/travel">Travel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/activities">Things to do</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
