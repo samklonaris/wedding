@@ -27,8 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: "samandmatt.love"
 baseurl: ""
 url: "https://www.samandmatt.love"
-twitter_username: jekyllrb
-github_username: srklonaris
+twitter_username: 0hSamIAm
+github_username: samklonaris
 
 # Build settings
 theme: minima
