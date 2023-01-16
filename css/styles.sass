@@ -245,3 +245,21 @@ footer
 .hidden-xs
 	@media (max-width: 690px)
 		display: none
+
+.registry-wrapper
+	justify-content: center
+	.provider
+		display: flex
+		flex-direction: column
+		align-items: center
+		box-shadow: 0 1px 6px 0 rgb(0 0 0 / 20%)
+		padding: 30px
+		border-radius: 4px
+		&:not(last)
+			margin-right: 30px
+		@media (max-width: 690px)
+			margin-bottom: 30px
+			&:not(last)
+				margin-right: 30px
+		.button-wrapper
+			margin-top: 30px
