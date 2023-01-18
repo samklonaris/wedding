@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>{% if page.title %}{{site.title}} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Welcome to Samantha Klonaris and Matt Kaplun's Wedding Website! View a schedule of events, accommodations, directions, registry details and more.">
+<meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{ site.description }}{% endif %}">
 
 <!-- TODO: Place apple-touch-icon.png in the root directory -->
 
