@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Samantha Klonaris & Matt Kaplun
+title: Samantha Klonaris & Matt Kaplun's Wedding Website
 email: srklonaris@gmail.com
 description: "Welcome to Samantha Klonaris and Matt Kaplun's Wedding Website! View a schedule of events, accommodations, directions, registry details and more."
 domain: "samandmatt.love"
