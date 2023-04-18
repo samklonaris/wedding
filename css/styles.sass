@@ -8,7 +8,7 @@ $rose-gold-color: #B76E79
 $font-1: 37px
 $font-1-mobile: 30px
 $font-2: 16px
-$font-3: 22px
+$font-3: 24px
 
 @font-face
 	font-family: "WorkSans-Regular"
@@ -231,8 +231,6 @@ a.button
 			border-left: 0px
 			border-top: 2px solid $rose-gold-color
 			padding-top: 10px
-.coming-soon
-	text-align: center
 
 .activity-wrapper
 	text-align: center
@@ -284,3 +282,40 @@ footer
 	.q
 		font-size: $font-3
 		margin-bottom: 20px
+
+.event-wrapper
+	max-width: 700px
+	text-align: center
+	margin: 0 auto
+	margin-top: 24px
+	&:not(:last-child)
+		margin-bottom: 50px
+	.day
+		font-size: $font-3
+		text-transform: uppercase
+	.date
+		font-size: $font-3
+		margin-bottom: 24px
+	.event-section-wrapper
+		display: flex
+		border-top: 1px solid $rose-gold-color
+		padding-top: 24px
+		&:not(:last-child)
+			margin-bottom: 35px
+
+		.event-section
+			&.right
+				text-align: right
+				padding-right: 35px
+				width: 40%
+			&.left
+				text-align: left
+				padding-left: 35px
+				width: 60%
+			&.time
+				font-size: $font-3
+			.what
+				font-size: $font-3
+				margin-bottom: 12px
+				text-transform: uppercase
+			.where
